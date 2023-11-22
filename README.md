@@ -89,3 +89,8 @@ Here are some resources to help you on your Hugo + Netlify coding fun!
 Hope this template helps :) Happy coding 👩🏻‍💻!
 
 ---
+
+
+TODO:
+- Favicon
+- TODOs

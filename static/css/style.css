@@ -1,0 +1,16 @@
+.navbar {
+    background: none !important;
+}
+
+.navbar-brand img{
+    width: 5rem;
+    height: auto;
+}
+
+.hero {
+    background: #FFC10608;
+}
+
+.speaker.card {
+    background: white !important;
+}
