@@ -94,3 +94,5 @@ Hope this template helps :) Happy coding 👩🏻‍💻!
 TODO:
 - Favicon
 - TODOs
+- Google analytics
+- Netlify CMS?
