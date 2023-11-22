@@ -1,0 +1,18 @@
+<div class="col">
+    <div class="card text-bg-light border-light speaker">
+        <img src="/team/{{ .Get "photo" }}" class="card-img-top">
+        <div class="card-body">
+            <h5 class="card-title fs-3 fw-medium">{{ .Get "name" }}</h5>
+            <div class="card-text fs-5 fw-light">
+                <div>{{ .Get "title" }}</div>
+                <div>{{ .Get "company" }}</div>
+                {{ if isset .Params "twitter" }}
+                <a href="https://twitter.com/{{ .Get "twitter" }}" target="_blank" class="card-link link-secondary"><i class="bi bi-twitter-x"></i></a>
+                {{ end }}
+                {{ if isset .Params "linkedin" }}
+                <a href="https://www.linkedin.com/in/{{ .Get "linkedin" }}" target="_blank" class="card-link link-secondary"><i class="bi bi-linkedin"></i></a>
+                {{ end }}
+            </div>
+        </div>
+    </div>
+</div>
