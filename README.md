@@ -20,7 +20,6 @@ Love reading, here's blog post: https://www.netlify.com/blog/deploy-your-hugo-ap
 - [Hugo + Netlify Resources](#hugo--netlify-resources)
 - [Testing](#testing)
   - [Included Default Testing](#included-default-testing)
-  - [Removing Renovate](#removing-renovate)
 - [Want to learn more?](#want-to-learn-more)
 
 ## Quick Setup + Deploy Option
@@ -90,18 +89,3 @@ Here are some resources to help you on your Hugo + Netlify coding fun!
 Hope this template helps :) Happy coding 👩🏻‍💻!
 
 ---
-
-## Testing
-
-### Included Default Testing
-
-We’ve included some tooling that helps us maintain these templates. This template currently uses:
-
-- [Renovate](https://www.mend.io/free-developer-tools/renovate/) - to regularly update our dependencies
-
-If your team is not interested in this tooling, you can remove them with ease!
-
-### Removing Renovate
-
-In order to keep our project up-to-date with dependencies we use a tool called [Renovate](https://github.com/marketplace/renovate). If you’re not interested in this tooling, delete the `renovate.json` file and commit that onto your main branch.
-
