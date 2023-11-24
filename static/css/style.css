@@ -14,3 +14,15 @@
 .speaker.card {
     background: white !important;
 }
+
+.limited-width-lg {
+    /*50% on bigger screen*/
+    width: 50%;
+}
+
+@media only screen and (max-width: 992px) {
+    .limited-width-lg {
+        /*100% on small screen*/
+        width: 100%;
+    }
+}
