@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@300;400&display=swap');
+
 .navbar {
     background: none !important;
 }
@@ -5,6 +7,14 @@
 .navbar-brand img{
     width: 5rem;
     height: auto;
+}
+
+.navbar-brand span, .footer-brand{
+    font-size: 125%;
+    font-family: 'Red Hat Display', sans-serif;
+    font-weight: 400;
+    color: rgba(0,0,0,.65);
+    text-decoration: none;
 }
 
 .hero {
