@@ -33,7 +33,6 @@ TODO:
 - Logo
 - Favicon
 - TODOs in pages
-- Google analytics
 - Netlify CMS?
 - Social media preview
 - SEO tags
