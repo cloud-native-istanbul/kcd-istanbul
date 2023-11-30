@@ -30,8 +30,8 @@
 }
 
 .limited-width-lg {
-    /*60% on bigger screen*/
-    width: 60%;
+    /*70% on bigger screen*/
+    width: 70%;
 }
 
 @media only screen and (max-width: 992px) {
