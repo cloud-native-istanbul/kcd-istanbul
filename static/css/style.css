@@ -5,8 +5,16 @@
 }
 
 .navbar-brand img{
-    width: 5rem;
-    height: auto;
+    height: 5rem;
+    width: auto;
+    margin-right: 1rem;
+}
+@media only screen and (max-width: 992px) {
+    .navbar-brand img{
+        height: 11vw;
+        margin-right: 0;
+        padding-right: 0;
+    }
 }
 
 .navbar-brand span, .footer-brand{
