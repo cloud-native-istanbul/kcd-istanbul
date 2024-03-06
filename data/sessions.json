@@ -28,7 +28,14 @@
     "description": "\"Have I considered every angle with this decision, or could a bias have crept in?\" - is a common question that’ll prompt you to critically assess potential biases. As the cloud-native landscape evolves, the governance structures overseeing these environments play a pivotal role in shaping the trajectory of inclusivity of projects. Join us for an exploration, where we as contributors to CNCF projects and release teams share firsthand experiences, emphasizing the pivotal role of empathy in cloud-native development.\nDiscover the analogy of empathy as a muscle and learn how to cultivate it. Drawing a clear distinction between empathy and sympathy, shifting from a \"know it all\" mindset to a \"learn it all\" and “two-word check-in” for concise emotional expression. Prioritizing open dialogue, the talk suggests creating a safe space, establishing a common language, and empowering attendees to integrate empathy into decision-making for a more inclusive, bias-aware Cloud Native environment.",
     "speakers": ["kunal_kushwaha", "aakansha_priya"],
     "day": "Wed",
-    "time": "10:00",
+    "time": "10:15",
     "duration": "25min"
+  },
+  "break01": {
+    "title": "Coffee break",
+    "day": "Wed",
+    "time": "10:00",
+    "duration": "15min",
+    "noDetails": true
   }
 }

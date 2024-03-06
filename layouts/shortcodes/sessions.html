@@ -9,28 +9,7 @@
         <tbody>
         {{ range $k, $v := sort $.Site.Data.sessions "time" }}
             {{ if eq .day "Wed" }}
-                <tr>
-                    <td>
-                        <p class="lead">{{ .time }}</p>
-                    </td>
-                    <td>
-                        <p class="lead">
-                            {{ .title }}
-                        </p>
-                        <p>
-                            {{ range $k, $v := .speakers }}
-                                {{ $speaker := index $.Site.Data.speakers $v }}
-                                <div style="display: inline-block; padding-right: 1rem;">
-                                    <img src="/speakers/{{ $speaker.photo }}" class="rounded-circle" style="width: 50px; height: 50px; object-fit: cover;">
-                                    <a class="link-dark" href="#" data-bs-toggle="modal" data-bs-target="#speaker-{{ $speaker.key }}" >{{ $speaker.name }}</a>
-                                </div>
-                            {{ end }}
-                        </p>
-                        <p>
-                            <span class="badge rounded-pill text-bg-primary">{{ .duration }}</span>
-                        </p>
-                    </td>
-                </tr>
+                {{ partial "sessionRow.html" (dict "siteData" $.Site.Data "session" .) }}
             {{ end }}
         {{ end }}
         </tbody>
@@ -41,28 +20,7 @@
         <tbody>
         {{ range $k, $v := sort $.Site.Data.sessions "time" }}
             {{ if eq .day "Thu" }}
-                <tr>
-                    <td>
-                        <p class="lead">{{ .time }}</p>
-                    </td>
-                    <td>
-                        <p class="lead">
-                            {{ .title }}
-                        </p>
-                        <p>
-                            {{ range $k, $v := .speakers }}
-                                {{ $speaker := index $.Site.Data.speakers $v }}
-                                <p style="display: inline-block; padding-right: 1rem;">
-                                    <img src="/speakers/{{ $speaker.photo }}" class="rounded-circle" style="width: 50px; height: 50px; object-fit: cover;">
-                                    <a class="link-dark" href="#" data-bs-toggle="modal" data-bs-target="#speaker-{{ $speaker.key }}" >{{ $speaker.name }}</a>
-                                </p>
-                            {{ end }}
-                        </p>
-                        <p>
-                            <span class="badge rounded-pill text-bg-primary">{{ .duration }}</span>
-                        </p>
-                    </td>
-                </tr>
+                {{ partial "sessionRow.html" (dict "siteData" $.Site.Data "session" .) }}
             {{ end }}
         {{ end }}
         </tbody>
