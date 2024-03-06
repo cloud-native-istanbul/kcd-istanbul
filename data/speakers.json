@@ -1,0 +1,68 @@
+{
+  "liz_rice": {
+    "index": 1,
+    "photo": "liz-rice.webp",
+    "name": "Liz Rice",
+    "title": "Chief Open Source Officer",
+    "company": "Isovalent",
+    "twitter": "lizrice",
+    "linkedin": "lizrice",
+    "bio": "TBD",
+    "session": "session01"
+  },
+  "kat_cosgrove": {
+    "index": 2,
+    "photo": "kat_cosgrove.jpg",
+    "name": "Kat Cosgrove",
+    "title": "Lead Developer Advocate",
+    "company": "Dell",
+    "twitter": "Dixie3Flatline",
+    "linkedin": "katcosgrove",
+    "bio": "TBD",
+    "session": "session02"
+  },
+  "viktor_farcic": {
+    "index": 3,
+    "photo": "viktor-farcic.png",
+    "name": "Viktor Farcic",
+    "title": "Developer Advocate",
+    "company": "Upbound",
+    "twitter": "vfarcic",
+    "linkedin": "viktorfarcic",
+    "bio": "Viktor Farcic is a lead rapscallion at Upbound, a member of the CNCF Ambassadors, Google Developer Experts, CDF Ambassadors, and GitHub Stars groups, and a published author.\n\nHe is a host of the YouTube channel DevOps Toolkit and a co-host of DevOps Paradox.",
+    "session": "session03"
+  },
+  "mauricio_salatino": {
+    "index": 4,
+    "photo": "mauricio-salatino.jpg",
+    "name": "Mauricio Salatino",
+    "title": "OSS Software Engineer",
+    "company": "Diagrid",
+    "twitter": "salaboy",
+    "linkedin": "salaboy",
+    "bio": "Mauricio works as an Open Source Software Engineer at @Diagrid, contributing to and driving initiatives for the Dapr OSS project. Mauricio also serves as a Steering Committee member for the Knative Project and Co-Leading the Knative Functions initiative. He published a book titled Platform Engineering on Kubernetes for Manning Publishing and previously worked at VMware and Red Hat, building tools to help developers be more productive.",
+    "session": "session03"
+  },
+  "kunal_kushwaha": {
+    "index": 5,
+    "photo": "kunal-kushwaha.jpg",
+    "name": "Kunal Kushwaha",
+    "title": "Developer Relations Manager",
+    "company": "Civo",
+    "twitter": "kunalstwt",
+    "linkedin": "kunal-kushwaha",
+    "bio": "Kunal is empowering communities via open-source and education. He finds passion in teaching and has taught thousands of folks online and in person. He is a developer relations manager at Civo, CNCF Ambassador, TEDx speaker and a GitHub Star. He is the founder of WeMakeDevs and also started the official Cloud Native Student Community group joined by thousands of folks, focussed on getting more young people involved in the ecosystem. In the past he has been a track chair of the KubeCon + CloudNativeCon, Major League Hacking Coach and a Google Summer of Code mentor.",
+    "session": "session04"
+  },
+  "aakansha_priya": {
+    "index": 6,
+    "photo": "aakansha-priya.jpeg",
+    "name": "Aakansha Priya",
+    "title": "DevRel",
+    "company": "EmpathyOps",
+    "twitter": "AakanshaPriya_",
+    "linkedin": "aakansha-priya-1782b91a0",
+    "bio": "Aakansha is a DevRel at EmpathyOps. Working on empowering & upscaling the communities. In the past she has been a Community Manager at Hashnode. As a frontend dev turned DevOps explorer, loves sharing tech insights, views on learning & building in public, blogging & building personal brand. A reader and speaker, Aakansha paints, sings and loves spontaneous travel. Catch her at meetups & conferences!\n",
+    "session": "session04"
+  }
+}

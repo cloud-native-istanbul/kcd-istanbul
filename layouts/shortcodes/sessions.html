@@ -1,0 +1,70 @@
+<div class="container">
+
+    <p class="lead fs-1">
+        Event Schedule
+    </p>
+
+    <p class="lead fs-2 mt-5">Day #1 - May 15, 2024</p>
+    <table class="table table-striped table-hover" style="max-width: 70%;">
+        <tbody>
+        {{ range $k, $v := sort $.Site.Data.sessions "time" }}
+            {{ if eq .day "Wed" }}
+                <tr>
+                    <td>
+                        <p class="lead">{{ .time }}</p>
+                    </td>
+                    <td>
+                        <p class="lead">
+                            {{ .title }}
+                        </p>
+                        <p>
+                            {{ range $k, $v := .speakers }}
+                                {{ $speaker := index $.Site.Data.speakers $v }}
+                                <div style="display: inline-block; padding-right: 1rem;">
+                                    <img src="/speakers/{{ $speaker.photo }}" class="rounded-circle" style="width: 50px; height: 50px; object-fit: cover;">
+                                    <span>{{ $speaker.name }}</span>
+                                </div>
+                            {{ end }}
+                        </p>
+                        <p>
+                            <span class="badge rounded-pill text-bg-primary">{{ .duration }}</span>
+                        </p>
+                    </td>
+                </tr>
+            {{ end }}
+        {{ end }}
+        </tbody>
+    </table>
+
+    <p class="lead fs-2 mt-5">Day #2 - May 16, 2024</p>
+    <table class="table table-striped table-hover" style="max-width: 70%;">
+        <tbody>
+        {{ range $k, $v := sort $.Site.Data.sessions "time" }}
+            {{ if eq .day "Thu" }}
+                <tr>
+                    <td>
+                        <p class="lead">{{ .time }}</p>
+                    </td>
+                    <td>
+                        <p class="lead">
+                            {{ .title }}
+                        </p>
+                        <p>
+                            {{ range $k, $v := .speakers }}
+                                {{ $speaker := index $.Site.Data.speakers $v }}
+                                <div style="display: inline-block; padding-right: 1rem;">
+                                    <img src="/speakers/{{ $speaker.photo }}" class="rounded-circle" style="width: 50px; height: 50px; object-fit: cover;">
+                                    <span>{{ $speaker.name }}</span>
+                                </div>
+                            {{ end }}
+                        </p>
+                        <p>
+                            <span class="badge rounded-pill text-bg-primary">{{ .duration }}</span>
+                        </p>
+                    </td>
+                </tr>
+            {{ end }}
+        {{ end }}
+        </tbody>
+    </table>
+</div>

@@ -1,0 +1,34 @@
+{
+  "session01": {
+    "title": "Keynote 01 - TBD",
+    "description": "TBD \n TBD",
+    "speakers": ["liz_rice"],
+    "day": "Wed",
+    "time": "09:00",
+    "duration": "25min"
+  },
+  "session02": {
+    "title": "Keynote 02 - TBD",
+    "description": "TBD \n TBD",
+    "speakers": ["kat_cosgrove"],
+    "day": "Thu",
+    "time": "09:00",
+    "duration": "25min"
+  },
+  "session03": {
+    "title": "Unleashing the Power of Serverless on Kubernetes with Knative, Crossplane, Dapr, KEDA, and Friends\n",
+    "description": "In the ever-evolving landscape of cloud native computing, serverless computing has emerged as a transformative force, offering a paradigm shift in application development and deployment. This talk delves into the world of serverless computing within the Kubernetes ecosystem, showcasing how open-source projects like Knative, Crossplane, Dapr, KEDA, Shipwright, and others empower developers to harness the power of serverless on top of Kubernetes.\n\nThis is a hands-on talk, where we will build a serverless application (including infrastructure) from scratch. We will then explore how to extend the application with additional serverless capabilities, such as eventing, messaging, and state management. We will also explore how to leverage the power of Kubernetes operators to extend the Kubernetes API with custom resources and controllers, and how to use these operators to provision and manage serverless applications.",
+    "speakers": ["viktor_farcic", "mauricio_salatino"],
+    "day": "Wed",
+    "time": "09:30",
+    "duration": "25min"
+  },
+  "session04": {
+    "title": "Empathy in Cloud Native Governance: Addressing Bias for Inclusive Decisions",
+    "description": "\"Have I considered every angle with this decision, or could a bias have crept in?\" - is a common question that’ll prompt you to critically assess potential biases. As the cloud-native landscape evolves, the governance structures overseeing these environments play a pivotal role in shaping the trajectory of inclusivity of projects. Join us for an exploration, where we as contributors to CNCF projects and release teams share firsthand experiences, emphasizing the pivotal role of empathy in cloud-native development.\nDiscover the analogy of empathy as a muscle and learn how to cultivate it. Drawing a clear distinction between empathy and sympathy, shifting from a \"know it all\" mindset to a \"learn it all\" and “two-word check-in” for concise emotional expression. Prioritizing open dialogue, the talk suggests creating a safe space, establishing a common language, and empowering attendees to integrate empathy into decision-making for a more inclusive, bias-aware Cloud Native environment.",
+    "speakers": ["kunal_kushwaha", "aakansha_priya"],
+    "day": "Wed",
+    "time": "10:00",
+    "duration": "25min"
+  }
+}
