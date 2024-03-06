@@ -1,9 +1,9 @@
 <tr>
-    <td>
-        <p class="lead">{{ .session.time }}</p>
+    <td class="border-end" style="min-width: 7rem; text-align: center;">
+        <div class="lead fs-5 pt-2" style="min-height: 130px;">{{ .session.time }}</div>
     </td>
-    <td>
-        <p class="lead">
+    <td style="padding-left: 3rem;">
+        <p class="lead pt-2">
             {{ if .session.noDetails }}
                 {{ .session.title }}
             {{ else }}
@@ -14,13 +14,10 @@
             {{ $siteData := .siteData }}
             {{ range $k, $v := .session.speakers }}
                 {{ $speaker := index $siteData.speakers $v }}
-                <div style="display: inline-block; padding-right: 1rem;">
-                    <img src="/speakers/{{ $speaker.photo }}" class="rounded-circle" style="width: 50px; height: 50px; object-fit: cover;">
-                    <a class="link-dark" href="#" data-bs-toggle="modal" data-bs-target="#speaker-{{ $speaker.key }}" >{{ $speaker.name }}</a>
-                </div>
+                {{ partial "speakerBadge.html" (dict "speaker" $speaker)}}
             {{ end }}
         </p>
-        <p>
+        <p class="pb-2">
             <span class="badge rounded-pill text-bg-primary">{{ .session.duration }}</span>
         </p>
     </td>
