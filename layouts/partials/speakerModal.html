@@ -25,7 +25,9 @@
                                         <span class="badge rounded-pill text-bg-primary">{{ $session.day }}</span>
                                         <span class="badge rounded-pill text-bg-primary">{{ $session.time }}</span>
                                         <span class="badge rounded-pill text-bg-primary">{{ $session.duration }}</span>
-                                        <h5>{{ $session.title }}</h5>
+                                        <h5>
+                                            <a class="link-dark" href="#" data-bs-toggle="modal" data-bs-target="#session-{{ $session.key }}" >{{ $session.title }}</a>
+                                        </h5>
                                     </li>
                                 </ul>
                             </div>

@@ -27,6 +27,10 @@
     </table>
 </div>
 
-{{ range $k, $v := sort $.Site.Data.speakers "index" }}
+{{ range $.Site.Data.speakers }}
     {{ partial "speakerModal.html" (dict "siteData" $.Site.Data "speaker" .) }}
+{{ end }}
+
+{{ range $.Site.Data.sessions }}
+    {{ partial "sessionModal.html" (dict "siteData" $.Site.Data "session" .) }}
 {{ end }}
