@@ -1,0 +1,344 @@
+{
+  "keynote01": {
+    "key": "keynote01",
+    "title": "Opening Keynote - Cloud Native Superpowers with eBPF",
+    "description": "TBD",
+    "speakers": ["liz_rice"],
+    "day": "Wed",
+    "time": "09:30",
+    "duration": "25min"
+  },
+  "hasan": {
+    "key": "hasan",
+    "title": "Crossplane: Simplifying Cloud Management with Abstractions",
+    "description": "This presentation will explore the pivotal role of Crossplane in the evolving landscape of cloud resource management. As a Crossplane maintainer, I'll share insights into how Crossplane meets the complex needs of modern cloud infrastructure, offering a practical approach to managing cloud environments.\n\nThe talk will focus on the key principles of Crossplane, highlighting its ability to provide tailored APIs and abstraction layers that simplify cloud resource management. These features enable developers and platform teams to orchestrate and automate cloud resources more effectively, fostering innovation and efficiency.\n\nWe'll include a live demonstration showing how Crossplane can be applied in real-world scenarios. This session aims to provide a comprehensive understanding of Crossplane’s capabilities and how it is a versatile tool for cloud resource management.",
+    "speakers": ["hasan_turken"],
+    "day": "Wed",
+    "time": "10:00",
+    "duration": "25min"
+  },
+  "kunal-aakansha": {
+    "key": "kunal-aakansha",
+    "title": "Empathy in Cloud Native Governance: Addressing Bias for Inclusive Decisions",
+    "description": "\"Have I considered every angle with this decision, or could a bias have crept in?\" - is a common question that’ll prompt you to critically assess potential biases. As the cloud-native landscape evolves, the governance structures overseeing these environments play a pivotal role in shaping the trajectory of inclusivity of projects. Join us for an exploration, where we as contributors to CNCF projects and release teams share firsthand experiences, emphasizing the pivotal role of empathy in cloud-native development.\n\n Discover the analogy of empathy as a muscle and learn how to cultivate it. Drawing a clear distinction between empathy and sympathy, shifting from a \"know it all\" mindset to a \"learn it all\" and “two-word check-in” for concise emotional expression. Prioritizing open dialogue, the talk suggests creating a safe space, establishing a common language, and empowering attendees to integrate empathy into decision-making for a more inclusive, bias-aware Cloud Native environment.",
+    "speakers": ["kunal_kushwaha", "aakansha_priya"],
+    "day": "Wed",
+    "time": "10:30",
+    "duration": "25min"
+  },
+  "akin": {
+    "key": "akin",
+    "title": "Unlocking Efficient Cluster Scaling: A Deep Dive into Karpenter",
+    "description": "Delve into the efficiencies of Karpenter, Kubernetes' innovative autoscaler, in this deep dive session. We contrast its unique architecture with traditional autoscalers, highlighting how it revolutionizes cluster scaling. The talk unpacks Karpenter's design principles, focusing on its provisioning algorithms and resource optimization strategies. Key to our discussion are real-world applications, where Karpenter's performance in managing complex scaling scenarios is showcased. We demonstrate its impact on operational efficiency through practical case studies, emphasizing cost reductions and performance enhancements. Advanced configurations, such as scheduling constraints and pod prioritization, are also explored, offering insights into customizing Karpenter for diverse environments. This session is designed not just to inform, but also to equip attendees with practical knowledge for implementing Karpenter effectively in their Kubernetes clusters.",
+    "speakers": ["akin_ozer"],
+    "day": "Wed",
+    "time": "11:30",
+    "duration": "25min"
+  },
+  "irvi": {
+    "key": "irvi",
+    "title": "AI Deployment: Mastering LLMs with KFServing in Kubernetes",
+    "description": "Unlock the power of deploying Large Language Models (LLMs) in Kubernetes using KFServing with this insightful 30-minute presentation. We'll guide you through the seamless integration of LLMs into cloud-native ecosystems, leveraging Kubernetes' scalability and KFServing's model serving capabilities. Discover best practices for deploying, managing, and optimizing LLMs in a Kubernetes environment, ensuring efficient resource utilization and high-performance inference. This session is ideal for AI practitioners and cloud engineers looking to elevate their deployment strategies in the rapidly evolving field of AI.",
+    "speakers": ["irvi_firqotul_aini"],
+    "day": "Wed",
+    "time": "12:00",
+    "duration": "25min"
+  },
+  "alessandro": {
+    "key": "alessandro",
+    "title": "The Periodic Table of Cloud Native",
+    "description": "In my previous career as a chemist, I gained a profound appreciation for the intricate harmony of nature's elements. Today, I invite you on a captivating journey through the realms of elements, projects, communities, and molecules. With a blend of scientific insight, technological flair, and unbridled passion, I aim to ignite an engaging and thought-provoking discourse on the ever-evolving landscape of the cloud native ecosystem and its future trajectory.",
+    "speakers": ["alessandro_vozza"],
+    "day": "Wed",
+    "time": "14:00",
+    "duration": "25min"
+  },
+  "erkan-mustafa": {
+    "key": "erkan-mustafa",
+    "title": "Building Trendyol's Next-Level Application Delivery Platform with KubeVela",
+    "description": "Creating a production-ready service at high scale (7000+ microservices and more than 150+ domain teams) with complex infrastructure components leads developers under cognitive load and prevents them from focusing on their work.\n\nWe've decided to build our own IDP (Internal Developer Platform) aka Trendyol Builder Platform (TBP) to overcome such challenges and improve our DORA metrics. TBP provides teams to create and manage both infrastructure (Database, Kafka etc.) and application components.",
+    "speakers": ["mustafa_yumurtaci", "erkan_zileli"],
+    "day": "Wed",
+    "time": "14:30",
+    "duration": "25min"
+  },
+  "george-dan": {
+    "key": "george-dan",
+    "title": "Building Internal Developer Platforms with Kubernetes Operators",
+    "description": "In this presentation, we will dive deep into the world of Kubernetes operators and how they can be leveraged to empower platform engineering teams and extend Kubernetes as the platform of platforms. We will start by introducing the concept of Kubernetes operators, their architecture, as well as how their development becomes easier leveraging the Operator Framework. We will then explore the advantages of using Kubernetes operators to manage complex applications and how they can streamline the deployment, scaling, and management of these applications. We will also provide real-world examples of operators that have been successfully deployed by platform engineering teams in the process of building an IDP. We will then demonstrate how an architecture of an IDP leveraging operators would look like and how this integrates with other CNCF tools, like Tekton, ArgoCD, Istio, and more as well as how infrastructure as code can be simplified with this approach.",
+    "speakers": ["george_hantzaras", "dan_mckean"],
+    "day": "Wed",
+    "time": "15:00",
+    "duration": "25min"
+  },
+  "tobias": {
+    "key": "tobias",
+    "title": "Kubernetes & AI - Beauty and the Beast!?!",
+    "description": "As AI technology is pushing into IT I was wondering myself, as an “infrastructure container kubernetes guy”, how get this fancy AI technology get managed from an infrastructure operational view? Is it possible to apply our lovely cloud native principals as well? What benefit’s both technologies could bring to each other?\n\nLet me take this questions and provide you a short journey through existing deployment models and use cases for AI software. On practical examples, we discuss what cloud/on-premise strategy we may need for applying it to our own infrastructure to get it to work from an enterprise perspective. I want to give an overview about infrastructure requirements and technologies, what could be beneficial or limiting your AI use cases in an enterprise environment. An interactive Demo will give you some insides, what approaches I got already working for real.",
+    "speakers": ["tobias_schneck"],
+    "day": "Wed",
+    "time": "15:30",
+    "duration": "25min"
+  },
+  "henrik": {
+    "key": "henrik",
+    "title": "Telemetry Showdown: Fluent Bit vs. OpenTelemetry Collector - A Comprehensive Benchmark Analysis",
+    "description": "In a push to standardize observability practices, the cloud-native community has embraced OpenTelemetry, offering a unified framework for metrics, logs, and traces. Prior to this, log processing relied on agents like fluent, evolving into fluentbit. With fluentbit's recent expansion to support additional signals and the OpenTelemetry Collector's emergence, a pertinent question arises: Which is the superior choice for performance?\n\nThis session delves into:\n- Unveiling the distinctions between Fluent Bit and the OpenTelemetry Collector.\n- Sharing the findings derived from a series of benchmark tests.\n- Providing valuable insights to empower the community in selecting the most fitting agent for their cloud-native environments.",
+    "speakers": ["henrik_rexed"],
+    "day": "Wed",
+    "time": "16:30",
+    "duration": "25min"
+  },
+  "ayse": {
+    "key": "ayse",
+    "title": "Closing Keynote - Numbers at the Frontline: Shifting Winds in Cloud Native Security",
+    "description": "Recent joint research from ESG and Root, polled from SREs, DevOps & Platform Engineers explores the state of cloud native security, shedding light on an increasingly worrying attack surface that is only growing.  Analyzing the data we learn that a mere 12% are managing to achieve security SLOs.  This is compounded by regulatory pressures,  the complexity of the supply chain with its own set of exploits & challenges, all this with a fragmented tooling ecosystem that is making it difficult to understand how to prioritize & remediate rapidly in a single consolidated place.\n\nThis session will dive into these new findings, on how container & OSS security continues to add difficulty with triaging security––as well as the cascading impact of the continuous rise in cloud native sec, vulns, and the supply chain as a whole.  Join this session to learn how to take cloud native security from reactive to proactive along with real practical tips for minimizing the noise & achieving security SLOs.",
+    "speakers": ["ayse_kaya"],
+    "day": "Wed",
+    "time": "17:00",
+    "duration": "25min"
+  },
+
+
+  "keynote02": {
+    "key": "keynote02",
+    "title": "Opening Keynote - Fly Me to the Moon: Punch cards, Supercomputers, and Kubernetes",
+    "description": "Kubernetes is the sometimes-controversial darling of the tech industry. It’s indispensable in situations where it’s useful, but undeniably complex and can be difficult to use. We tend to chalk that up to its relative newness and the complexity of the problems it's solving, but exactly how new are these problems? CI/CD feels new, but its origins predate DevOps. Infrastructure as Code feels new, but we’ve been programmatically defining machines for decades.\n\nKubernetes isn’t any different; since the dawn of computing, we’ve had issues with workloads and scale. What’s actually going on is that we’re solving the same technical problems over and over again, flavored by the circumstances of the time in which a pain point becomes impossible to ignore. To better understand how Kubernetes came to be, we need to look backwards to its predecessors: the struggle to achieve virtualization, a supercomputer, and a trip to the moon.",
+    "speakers": ["kat_cosgrove"],
+    "day": "Thu",
+    "time": "09:30",
+    "duration": "25min"
+  },
+  "viktor-mauricio": {
+    "key": "viktor-mauricio",
+    "title": "Unleashing the Power of Serverless on Kubernetes with Knative, Crossplane, Dapr, KEDA, and Friends",
+    "description": "In the ever-evolving landscape of cloud native computing, serverless computing has emerged as a transformative force, offering a paradigm shift in application development and deployment. This talk delves into the world of serverless computing within the Kubernetes ecosystem, showcasing how open-source projects like Knative, Crossplane, Dapr, KEDA, Shipwright, and others empower developers to harness the power of serverless on top of Kubernetes.\n\n This is a hands-on talk, where we will build a serverless application (including infrastructure) from scratch. We will then explore how to extend the application with additional serverless capabilities, such as eventing, messaging, and state management. We will also explore how to leverage the power of Kubernetes operators to extend the Kubernetes API with custom resources and controllers, and how to use these operators to provision and manage serverless applications.",
+    "speakers": ["viktor_farcic", "mauricio_salatino"],
+    "day": "Thu",
+    "time": "10:00",
+    "duration": "25min"
+  },
+  "mustafa": {
+    "key": "mustafa",
+    "title": "Kubernetes Extensibility Explored: Custom Watchers and CRDs",
+    "description": "This presentation delves into Kubernetes Custom Resource Definitions (CRDs) and their practical use with tools like client-go and the Fabric8 Kubernetes Client. Explore how CRDs empower the creation of custom objects within Kubernetes, offering versatile possibilities. Additionally, gain insights into monitoring Kubernetes objects in real-time. This session provides a technical exploration of how CRDs, along with these essential tools, enhance Kubernetes for specific requirements, amplifying its adaptability for diverse applications while emphasizing the significance of object monitoring.",
+    "speakers": ["mustafa_akin"],
+    "day": "Thu",
+    "time": "10:30",
+    "duration": "25min"
+  },
+  "katharina-thomas": {
+    "key": "katharina-thomas",
+    "title": "Closing the Loop: Applying Least Privilege and Ensuring We Did It Well",
+    "description": "According to OWASP, insecure workload configuration is the top security problem in Kubernetes. With the shift to Platform engineering, minimizing the attack surface of our Kubernetes clusters becomes even more critical.\n\nThis talk will cover the Principle of Least Privilege and how it can be applied to balance robust security and a good experience for users and administrators. Moreover, we'll see how to use Falco to observe if we did well and detect suspicious events that may happen in our clusters anyway.\n\nJoin us to discover how the Principle of Least Privilege, Falco and observability empower you to safeguard your Kubernetes ecosystem without making yourself and your users suffer.",
+    "speakers": ["katharina_sick", "thomas_labarussias"],
+    "day": "Thu",
+    "time": "11:30",
+    "duration": "25min"
+  },
+  "engin": {
+    "key": "engin",
+    "title": "Gain Platform Superpowers with the KEBAP Stack!",
+    "description": "Kelsey Hightower once wrote that Kubernetes is a platform for building platforms, and I couldn't agree more. Since then, there has been significant evolution in this domain. A key insight is that Kubernetes is still too complex for just anyone within an organization. Its low level of abstraction leads to a high cognitive load for users.\n\nWelcome to the KEBAP stack, a composable Internal Developer Platforms (IDP) comprised of four open-source tools that form the layers of this IDP: (K)ubernetes, (E)xternal Secrets Operator, (B)ackstage, (A)rgo CD, and (P)ulumi. The KEBAP stack adheres to GitOps principles, a cornerstone of a robust, secure, and scalable IDP. Each layer of the KEBAP stack unlocks unique capabilities within your IDP by meeting the requirements of GitOps implementation, offering the flexibility to add more tools as you advance on your IDP journey.\n\nThis session will not only provide a high-level overview of the KEBAP stack but will also demo the KEBAP stack.",
+    "speakers": ["engin_diri"],
+    "day": "Thu",
+    "time": "12:00",
+    "duration": "25min"
+  },
+  "jona-nicolas": {
+    "key": "jona-nicolas",
+    "title": "Securing Kubernetes Workloads: Open-Source Approaches to Enhance Workload Security Posture",
+    "description": "Join us for a talk on making Kubernetes workloads safer using free, open-source tools. Kubernetes is really popular for managing cloud applications, but keeping it secure is a big challenge. We'll look at the basics of what makes Kubernetes workloads vulnerable and how we can fix these issues with open-source tools. You'll learn practical tips and see real examples that'll help you improve your Kubernetes security. Whether you're new to Kubernetes or have been using it for a while, this talk will give you some great insights into keeping your applications safe and sound.",
+    "speakers": ["jona_apelbaum", "nicolas_ehrman"],
+    "day": "Thu",
+    "time": "14:00",
+    "duration": "25min"
+  },
+  "emin-furkan": {
+    "key": "emin-furkan",
+    "title": "Orchestrating Excellence: A Comparative Analysis of Kubernetes Scheduler and Descheduler Frameworks",
+    "description": "Kubernetes clusters are highly dynamic, and their state changes over time because of cluster-wide changes, like the joining, removing, or tainting of nodes. As a result, it could reach an unbalanced state over time. Eventually, cluster balancing is inevitable! Join us in unlocking the full potential of Kubernetes scheduling and descheduling, where every tweak enhances cluster dynamics, by leveraging Kubernetes' exceptional extensibility!",
+    "speakers": ["furkan_turkal", "emin_aktas"],
+    "day": "Thu",
+    "time": "14:30",
+    "duration": "25min"
+  },
+  "edith": {
+    "key": "edith",
+    "title": "Kubernetes Operator for Database: Exploring the Mechanics and Benefits",
+    "description": "In this talk, we will focus specifically on Kubernetes Operators applied to databases. We will begin with an introduction to Kubernetes, illustrating how a typical application is deployed and managed in this environment and the difficulties that exist when implementing a database in Kubernetes. Next, we will detail what Kubernetes Operators are and their critical importance in effective database management on Kubernetes platforms. We will discuss how Operators offer an automated solution for complex tasks such as scaling, updating, and monitoring databases, significantly simplifying these processes. Attendees will gain a deep understanding of the benefits that Kubernetes Operators bring to database management, along with practical examples that illustrate their effectiveness in production environments. The talk is ideal for those looking to understand how Operators can improve efficiency and scalability in managing databases in Kubernetes.",
+    "speakers": ["edith_puclla"],
+    "day": "Thu",
+    "time": "15:00",
+    "duration": "25min"
+  },
+  "onur": {
+    "key": "onur",
+    "title": "Observability 2.0 : With a little help from my friend (Opentelemetry)",
+    "description": "In this talk. we’ll discuss the slow paradigm shift happening within what we call as “observability”, what was it about historically, where are we now, what makes it so hard to get it right, how it can be a superpower and a pain in the neck at the same time, and the unknown unknowns. We will then delve into how OpenTelemetry project is levelling the game field in terms of setting the standards and setting up a new baseline to compete on. The talk will be concluded with some insights about how the project is evolving and the upcoming standards opentelemetry project is introducing soon.",
+    "speakers": ["onur_beygo"],
+    "day": "Thu",
+    "time": "15:30",
+    "duration": "25min"
+  },
+  "mohammed-rewanth": {
+    "key": "mohammed-rewanth",
+    "title": "My pods are not responding! - A Kubernetes troubleshooting journey",
+    "description": "Debugging production applications is comparable to a whodunnit story where you are the central character trying to figure out a crime from a crime scene. This becomes especially true with distributed services that are running in the cloud across multiple containers. Without proper tools for debugging and observability, it's impossible to see what's going on in a large-scale production deployment!\n\nJoin this demo-driven session to learn how to diagnose and troubleshoot production issues with out-of-the-box Kubernetes tools, in addition to other tools in the ecosystem.",
+    "speakers": ["mohammed_fazalullah_qudrath", "rewanth_tammana"],
+    "day": "Thu",
+    "time": "16:30",
+    "duration": "25min"
+  },
+  "utku": {
+    "key": "utku",
+    "title": "Use GitOps like a Pro with a Common Cloud Native Stack",
+    "description": "GitOps is gaining in popularity and with it a growing ecosystem of excellent tooling.  This talk will walk through a practical example from beginner to advanced, providing the fundamentals for applying GitOps with an OSS stack.\n\nWe will start with demonstrating how to configure and deploy a basic application through a Helm chart, through auto-syncing and self-healing this app post-deployment.  \n\nWe will then demo how to deploy the very same application to multiple clusters using the same Helm chart, leveraging ArgoCD’s Application Sets to enter different values, automating the deployment of ArgoCD manifests using the Apps of Apps approach, as well as defining projects and clusters, all with GitOps governance and policy in mind.  We will wrap up by demonstrating how to use multiple sources in a single ArgoCD application - providing entry level to advanced use cases for applying GitOps to your systems, with a universally application example leveraging common and open source tooling.",
+    "speakers": ["utku_darilmaz"],
+    "day": "Thu",
+    "time": "17:00",
+    "duration": "25min"
+  },
+
+
+  "registration01": {
+    "key": "registration01",
+    "title": "🔖 Registration",
+    "day": "Wed",
+    "time": "08:30",
+    "duration": "75min",
+    "noDetails": true
+  },
+  "registration02": {
+    "key": "registration02",
+    "title": "🔖 Registration",
+    "day": "Thu",
+    "time": "08:30",
+    "duration": "75min",
+    "noDetails": true
+  },
+
+  "welcome01": {
+    "key": "welcome01",
+    "title": "👋 Opening - Welcome (organizers)",
+    "day": "Wed",
+    "time": "09:15",
+    "duration": "15min",
+    "noDetails": true
+  },
+  "welcome02": {
+    "key": "welcome02",
+    "title": "👋 Opening - Welcome (organizers)",
+    "day": "Thu",
+    "time": "09:15",
+    "duration": "15min",
+    "noDetails": true
+  },
+
+  "sponsor01": {
+    "key": "sponsor01",
+    "title": "Sponsored talk",
+    "description": "TBD",
+    "speakers": [],
+    "day": "Wed",
+    "time": "11:15",
+    "duration": "15min"
+  },
+  "sponsor02": {
+    "key": "sponsor02",
+    "title": "Sponsored talk",
+    "description": "TBD",
+    "speakers": [],
+    "day": "Wed",
+    "time": "12:30",
+    "duration": "25min"
+  },
+  "sponsor03": {
+    "key": "sponsor03",
+    "title": "Sponsored talk",
+    "description": "TBD",
+    "speakers": [],
+    "day": "Wed",
+    "time": "16:15",
+    "duration": "15min"
+  },
+
+  "sponsor04": {
+    "key": "sponsor04",
+    "title": "Sponsored talk",
+    "description": "TBD",
+    "speakers": [],
+    "day": "Thu",
+    "time": "11:15",
+    "duration": "15min"
+  },
+  "sponsor05": {
+    "key": "sponsor05",
+    "title": "Sponsored talk",
+    "description": "TBD",
+    "speakers": [],
+    "day": "Thu",
+    "time": "12:30",
+    "duration": "25min"
+  },
+  "sponsor06": {
+    "key": "sponsor06",
+    "title": "Sponsored talk",
+    "description": "TBD",
+    "speakers": [],
+    "day": "Thu",
+    "time": "16:15",
+    "duration": "15min"
+  },
+
+
+  "break01": {
+    "key": "break01",
+    "title": "☕ Coffee break",
+    "day": "Wed",
+    "time": "11:00",
+    "duration": "15min",
+    "noDetails": true
+  },
+  "break02": {
+    "key": "break02",
+    "title": "☕ Coffee break",
+    "day": "Wed",
+    "time": "16:00",
+    "duration": "15min",
+    "noDetails": true
+  },
+  "break03": {
+    "key": "break03",
+    "title": "☕ Coffee break",
+    "day": "Thu",
+    "time": "11:00",
+    "duration": "15min",
+    "noDetails": true
+  },
+  "break04": {
+    "key": "break04",
+    "title": "☕ Coffee break",
+    "day": "Thu",
+    "time": "16:00",
+    "duration": "15min",
+    "noDetails": true
+  },
+
+  "lunch01": {
+    "key": "lunch01",
+    "title": "🍲 Lunch break",
+    "day": "Wed",
+    "time": "13:00",
+    "duration": "60min",
+    "noDetails": true
+  },
+  "lunch02": {
+    "key": "lunch02",
+    "title": "🍲 Lunch break",
+    "day": "Thu",
+    "time": "13:00",
+    "duration": "60min",
+    "noDetails": true
+  }
+}
