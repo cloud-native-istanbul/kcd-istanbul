@@ -1,6 +1,7 @@
 {
   "liz_rice": {
     "index": 1,
+    "key": "liz_rice",
     "photo": "liz-rice.webp",
     "name": "Liz Rice",
     "title": "Chief Open Source Officer",
@@ -12,6 +13,7 @@
   },
   "kat_cosgrove": {
     "index": 2,
+    "key": "kat_cosgrove",
     "photo": "kat_cosgrove.jpg",
     "name": "Kat Cosgrove",
     "title": "Lead Developer Advocate",
@@ -23,6 +25,7 @@
   },
   "viktor_farcic": {
     "index": 3,
+    "key": "viktor_farcic",
     "photo": "viktor-farcic.png",
     "name": "Viktor Farcic",
     "title": "Developer Advocate",
@@ -34,6 +37,7 @@
   },
   "mauricio_salatino": {
     "index": 4,
+    "key": "mauricio_salatino",
     "photo": "mauricio-salatino.jpg",
     "name": "Mauricio Salatino",
     "title": "OSS Software Engineer",
@@ -45,6 +49,7 @@
   },
   "kunal_kushwaha": {
     "index": 5,
+    "key": "kunal_kushwaha",
     "photo": "kunal-kushwaha.jpg",
     "name": "Kunal Kushwaha",
     "title": "Developer Relations Manager",
@@ -56,6 +61,7 @@
   },
   "aakansha_priya": {
     "index": 6,
+    "key": "aakansha_priya",
     "photo": "aakansha-priya.jpeg",
     "name": "Aakansha Priya",
     "title": "DevRel",

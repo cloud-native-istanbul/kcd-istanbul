@@ -22,7 +22,7 @@
                                 {{ $speaker := index $.Site.Data.speakers $v }}
                                 <div style="display: inline-block; padding-right: 1rem;">
                                     <img src="/speakers/{{ $speaker.photo }}" class="rounded-circle" style="width: 50px; height: 50px; object-fit: cover;">
-                                    <span>{{ $speaker.name }}</span>
+                                    <a class="link-dark" href="#" data-bs-toggle="modal" data-bs-target="#speaker-{{ $speaker.key }}" >{{ $speaker.name }}</a>
                                 </div>
                             {{ end }}
                         </p>
@@ -52,10 +52,10 @@
                         <p>
                             {{ range $k, $v := .speakers }}
                                 {{ $speaker := index $.Site.Data.speakers $v }}
-                                <div style="display: inline-block; padding-right: 1rem;">
+                                <p style="display: inline-block; padding-right: 1rem;">
                                     <img src="/speakers/{{ $speaker.photo }}" class="rounded-circle" style="width: 50px; height: 50px; object-fit: cover;">
-                                    <span>{{ $speaker.name }}</span>
-                                </div>
+                                    <a class="link-dark" href="#" data-bs-toggle="modal" data-bs-target="#speaker-{{ $speaker.key }}" >{{ $speaker.name }}</a>
+                                </p>
                             {{ end }}
                         </p>
                         <p>
@@ -68,3 +68,7 @@
         </tbody>
     </table>
 </div>
+
+{{ range $k, $v := sort $.Site.Data.speakers "index" }}
+    {{ partial "speakerModal.html" (dict "siteData" $.Site.Data "speaker" .) }}
+{{ end }}
