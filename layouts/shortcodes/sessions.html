@@ -4,8 +4,8 @@
         Event Schedule
     </p>
 
-    <p class="lead fs-2 mt-5">Day #1 - May 15, 2024</p>
-    <table class="table table-striped table-hover" style="max-width: 70%;">
+    <p class="lead fs-2 mt-5">Day #1 - May 15, 2024 <span class="badge rounded-pill text-bg-primary">Wed</span></p>
+    <table class="table table-hover" style="max-width: 70%;">
         <tbody>
         {{ range $k, $v := sort $.Site.Data.sessions "time" }}
             {{ if eq .day "Wed" }}
@@ -15,8 +15,8 @@
         </tbody>
     </table>
 
-    <p class="lead fs-2 mt-5">Day #2 - May 16, 2024</p>
-    <table class="table table-striped table-hover" style="max-width: 70%;">
+    <p class="lead fs-2 mt-5">Day #2 - May 16, 2024 <span class="badge rounded-pill text-bg-primary">Thu</span></p>
+    <table class="table table-hover" style="max-width: 70%;">
         <tbody>
         {{ range $k, $v := sort $.Site.Data.sessions "time" }}
             {{ if eq .day "Thu" }}
