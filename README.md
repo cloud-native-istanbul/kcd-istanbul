@@ -22,6 +22,31 @@ hugo
 
 The website will be built in the `public` directory.
 
+### Optimizing images
+
+We do image optimization (making them smaller, making them Web compatible, etc.) using imagemagick. You can install it using `brew install imagemagick` on macOS.
+
+To optimize images, run the following command:
+
+```bash
+# Optimize all images in the speakers directory
+# max speaker image size should be 600x600 (\> means only shrink larger images)
+# strip exif data
+# set quality to 80
+mogrify -resize 600x600\> -strip -quality 80 static/speakers/*.jpg
+mogrify -resize 600x600\> -strip -quality 80 static/speakers/*.png
+mogrify -resize 600x600\> -strip -quality 80 static/speakers/*.jpeg
+mogrify -resize 600x600\> -strip -quality 80 static/speakers/*.webp
+```
+
+To re-compress PNG images, we use `pngquant`. You can install it using `brew install pngquant` on macOS.
+
+```bash
+# Optimize all PNG images in the speakers directory
+pngquant --force --ext .png static/speakers/*.png
+```
+
+
 ## Publishing
 
 The website is hosted on Netlify. Pushing to the `main` branch will trigger a
