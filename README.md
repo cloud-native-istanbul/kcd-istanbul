@@ -37,6 +37,12 @@ mogrify -resize 600x600\> -strip -quality 80 static/speakers/*.jpg
 mogrify -resize 600x600\> -strip -quality 80 static/speakers/*.png
 mogrify -resize 600x600\> -strip -quality 80 static/speakers/*.jpeg
 mogrify -resize 600x600\> -strip -quality 80 static/speakers/*.webp
+
+# same story for team directory
+mogrify -resize 600x600\> -strip -quality 80 static/team/*.jpg
+mogrify -resize 600x600\> -strip -quality 80 static/team/*.png
+mogrify -resize 600x600\> -strip -quality 80 static/team/*.jpeg
+mogrify -resize 600x600\> -strip -quality 80 static/team/*.webp
 ```
 
 To re-compress PNG images, we use `pngquant`. You can install it using `brew install pngquant` on macOS.
@@ -44,6 +50,8 @@ To re-compress PNG images, we use `pngquant`. You can install it using `brew ins
 ```bash
 # Optimize all PNG images in the speakers directory
 pngquant --force --ext .png static/speakers/*.png
+# Same story for team directory
+pngquant --force --ext .png static/team/*.png
 ```
 
 
