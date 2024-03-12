@@ -1,0 +1,24 @@
+<div class="modal fade" id="session-{{ .session.key }}" tabindex="-1" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-scrollable modal-lg">
+        <div class="modal-content">
+            <div class="modal-body p-5">
+                <h3 class="card-title">{{ .session.title }}</h3>
+                <p class="card-text">
+                    <span class="badge rounded-pill text-bg-primary">{{ .session.day }}</span>
+                    <span class="badge rounded-pill text-bg-primary">{{ .session.time }}</span>
+                    <span class="badge rounded-pill text-bg-primary">{{ .session.duration }}</span>
+                </p>
+                <p class="card-text">
+                    {{ $siteData := .siteData }}
+                    {{ range $k, $v := .session.speakers }}
+                        {{ $speaker := index $siteData.speakers $v }}
+                        {{ partial "speakerBadge.html" (dict "speaker" $speaker)}}
+                    {{ end }}
+                </p>
+                <div class="lead">
+                    {{ markdownify .session.description }}
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,24 @@
+<tr>
+    <td class="border-end" style="min-width: 7rem; text-align: center;">
+        <div class="lead fs-5 pt-1" style="min-height: 60px;">{{ .session.time }}</div>
+    </td>
+    <td style="padding-left: 1.5rem;">
+        <p class="lead pt-1">
+            {{ if .session.noDetails }}
+                {{ .session.title }}
+            {{ else }}
+                <a class="link-dark link-offset-1 link-offset-2-hover link-underline-dark link-underline-opacity-25 link-underline-opacity-75-hover" href="#" data-bs-toggle="modal" data-bs-target="#session-{{ .session.key }}" >{{ .session.title }}</a>
+            {{ end }}
+        </p>
+        <p>
+            {{ $siteData := .siteData }}
+            {{ range $k, $v := .session.speakers }}
+                {{ $speaker := index $siteData.speakers $v }}
+                {{ partial "speakerBadge.html" (dict "speaker" $speaker)}}
+            {{ end }}
+        </p>
+        <p>
+            <span class="badge rounded-pill text-bg-primary">{{ .session.duration }}</span>
+        </p>
+    </td>
+</tr>

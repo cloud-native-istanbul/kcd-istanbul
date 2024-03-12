@@ -1,0 +1,40 @@
+<div class="modal fade" id="speaker-{{ .speaker.key }}" tabindex="-1" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-scrollable modal-xl">
+        <div class="modal-content">
+            <div class="modal-body">
+                <div class="card mb-3">
+                    <div class="row g-0">
+                        <div class="col-md-4">
+                            <img src="/speakers/{{ .speaker.photo }}" class="img-fluid rounded-start">
+                        </div>
+                        <div class="col-md-8">
+                            <div class="card-body">
+                                <h3 class="card-title">{{ .speaker.name }}</h3>
+                                <h5>{{ .speaker.title }} @ {{ .speaker.company }}</h5>
+                                {{ if .speaker.twitter }}
+                                <a href="https://twitter.com/{{ .speaker.twitter }}" target="_blank" class="card-link link-secondary"><i class="bi bi-twitter-x"></i></a>
+                                {{ end }}
+                                {{ if .speaker.linkedin }}
+                                <a href="https://www.linkedin.com/in/{{ .speaker.linkedin }}" target="_blank" class="card-link link-secondary"><i class="bi bi-linkedin"></i></a>
+                                {{ end }}
+                                <p class="card-text lead mt-2">{{ markdownify .speaker.bio }}</p>
+                                <h5>Sessions</h5>
+                                {{ $session := index .siteData.sessions .speaker.session }}
+                                <ul style="list-style: none;">
+                                    <li>
+                                        <span class="badge rounded-pill text-bg-primary">{{ $session.day }}</span>
+                                        <span class="badge rounded-pill text-bg-primary">{{ $session.time }}</span>
+                                        <span class="badge rounded-pill text-bg-primary">{{ $session.duration }}</span>
+                                        <h5 class="mt-2">
+                                            <a class="link-dark link-offset-1 link-offset-2-hover link-underline-dark link-underline-opacity-25 link-underline-opacity-75-hover" href="#" data-bs-toggle="modal" data-bs-target="#session-{{ $session.key }}" >{{ $session.title }}</a>
+                                        </h5>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
