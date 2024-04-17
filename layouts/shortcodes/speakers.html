@@ -1,0 +1,31 @@
+{{ range $k, $v := sort $.Site.Data.speakers "index" }}
+    <div class="col">
+        <div class="card text-bg-light border-light speaker">
+            <img src="/speakers/{{ .photo }}" class="card-img-top">
+            <div class="card-body">
+                <h5 class="card-title fs-3 fw-medium">
+                    <a class="link-dark link-offset-1 link-offset-2-hover link-underline-dark link-underline-opacity-25 link-underline-opacity-75-hover" href="#" data-bs-toggle="modal" data-bs-target="#speaker-{{ .key }}">{{ .name }}</a>
+                </h5>
+                <div class="card-text fs-5 fw-light">
+                    <div>{{ .title }}</div>
+                    <div>{{ .company }}</div>
+                    {{ if .twitter }}
+                    <a href="https://twitter.com/{{ .twitter }}" target="_blank" class="card-link link-secondary"><i class="bi bi-twitter-x"></i></a>
+                    {{ end }}
+                    {{ if .linkedin }}
+                    <a href="https://www.linkedin.com/in/{{ .linkedin }}" target="_blank" class="card-link link-secondary"><i class="bi bi-linkedin"></i></a>
+                    {{ end }}
+                </div>
+            </div>
+        </div>
+    </div>
+{{ end }}
+
+
+{{ range $.Site.Data.speakers }}
+    {{ partial "speakerModal.html" (dict "siteData" $.Site.Data "speaker" .) }}
+{{ end }}
+
+{{ range $.Site.Data.sessions }}
+    {{ partial "sessionModal.html" (dict "siteData" $.Site.Data "session" .) }}
+{{ end }}
