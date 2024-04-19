@@ -35,11 +35,11 @@
     "time": "11:30",
     "duration": "25min"
   },
-  "irvi": {
-    "key": "irvi",
-    "title": "AI Deployment: Mastering LLMs with KFServing in Kubernetes",
-    "description": "Unlock the power of deploying Large Language Models (LLMs) in Kubernetes using KFServing with this insightful 30-minute presentation. We'll guide you through the seamless integration of LLMs into cloud-native ecosystems, leveraging Kubernetes' scalability and KFServing's model serving capabilities. Discover best practices for deploying, managing, and optimizing LLMs in a Kubernetes environment, ensuring efficient resource utilization and high-performance inference. This session is ideal for AI practitioners and cloud engineers looking to elevate their deployment strategies in the rapidly evolving field of AI.",
-    "speakers": ["irvi_firqotul_aini"],
+  "aliok": {
+    "key": "aliok",
+    "title": "State of developer community and open source in Turkey",
+    "description": "Ever thought about why developers contribute to open source projects? Do we have developers in Turkey doing that? If so, how much? Also, how do they to that?\n\nSoftware folks often say “we need more folks in open source” in Turkey. While that’s a good guess, we don’t exactly know what the current state is, and how much we need to improve.\nWe are going to present a report of developer activities and open source contribution in Turkey, based on the data we’ve collected from GitHub. We will also present some analysis made by GitHub, in their Innovation Graph.\n\nFurthermore, people talk about contributing to open source all the time, but they need a trigger to start doing so. In this talk, we will talk about how to get people started with open source, such as with mentoring programs and open source beginner guides.\n\nWhy you should attend:\n\n- Cool Data: See some stats about Turkish developers and GitHub.\n\n- Practical Tips: Get applicable advice on how you can start contributing to open source",
+    "speakers": ["ali_ok"],
     "day": "Wed",
     "time": "12:00",
     "duration": "25min"

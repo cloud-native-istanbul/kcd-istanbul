@@ -263,17 +263,17 @@
     "bio": "",
     "session": "erkan-mustafa"
   },
-  "irvi_firqotul_aini": {
+  "ali_ok": {
     "index": 23,
-    "key": "irvi_firqotul_aini",
-    "photo": "irvi-firqotul-aini.jpg",
-    "name": "Irvi Firqotul Aini",
-    "title": "Open Source Contributor, Software Engineer",
-    "company": "",
-    "twitter": "irvifa",
-    "linkedin": "irvifa",
-    "bio": "With a passion for open source, machine learning, compilers, and natural language processing She was a shadow-release in the Kubernetes Release Team for versions 1.17 and 1.18, and has held positions as Shadow Chair and Emeritus-Co-Chair for Kubernetes SIG Docs. She's been a part of the program committees for Helm Summit 2019, Grace Hopper 2020, and KubeCon + CloudNativeCon events, and mentored at Grace Hopper OSD 2022.",
-    "session": "irvi"
+    "key": "ali_ok",
+    "photo": "ali-ok.jpeg",
+    "name": "Ali Ok",
+    "title": "Principal Software Engineer",
+    "company": "Red Hat",
+    "twitter": "aliok_tr",
+    "linkedin": "aliok",
+    "bio": "Ali Ok works for Red Hat as a principal software engineer. He is a Knative steering committee member and works with working groups within Knative.\n\nBesides the technical contributions to Knative and many CNCF projects, Ali is a CNCF Ambassador and a regular contributor to the CNCF TAG Contributor Strategy, where he helps projects with mentorship programs, governance improvements and contributor growth suggestions.",
+    "session": "aliok"
   },
   "george_hantzaras": {
     "index": 24,
