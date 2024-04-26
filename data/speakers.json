@@ -352,11 +352,11 @@
     "key": "mustafa_akin",
     "photo": "mustafa-akin.jpg",
     "name": "Mustafa Akın",
-    "title": "Co-founder",
-    "company": "Resmo",
+    "title": "Engineering Manager",
+    "company": "JumpCloud",
     "twitter": "mustafaakin",
     "linkedin": "mustafaakin",
-    "bio": "Mustafa Akın, co-founder at Resmo with past roles at Atlassian and Opsgenie, has a diverse background in Linux and Kubernetes. He has been involved with Docker since 2013 and actively shares his knowledge on software development and Kubernetes on his blog. Mustafa also embarked on a PhD journey, focusing on Kubernetes scheduling algorithms, before deciding to leave academia.",
+    "bio": "Mustafa Akın, an engineering manager at JumpCloud with past roles at Atlassian and Opsgenie, has a diverse background in Linux and Kubernetes. He has been involved with Docker since 2013 and actively shares his knowledge on software development and Kubernetes on his blog. Mustafa also embarked on a PhD journey, focusing on Kubernetes scheduling algorithms, before deciding to leave academia.",
     "session": "mustafa"
   }
 }
