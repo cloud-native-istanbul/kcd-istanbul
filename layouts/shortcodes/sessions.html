@@ -5,9 +5,9 @@
     </p>
 
     <details open>
-      <summary class="lead fs-2 mt-5">Day #1 - May 15, 2024 <span class="badge rounded-pill text-bg-primary">Wed</span>
+      <summary class="lead fs-4 mt-5">Day #1 - May 15, 2024 <span class="badge rounded-pill text-bg-primary">Wed</span>
       </summary>
-      <table class="table table-hover" style="max-width: 70%;">
+      <table class="table table-hover">
           <tbody>
           {{ range $k, $v := sort $.Site.Data.sessions "time" }}
               {{ if eq .day "Wed" }}
@@ -19,9 +19,9 @@
     </details>
 
     <details open>
-      <summary class="lead fs-2 mt-5">Day #2 - May 16, 2024 <span class="badge rounded-pill text-bg-primary">Thu</span>
+      <summary class="lead fs-4 mt-5">Day #2 - May 16, 2024 <span class="badge rounded-pill text-bg-primary">Thu</span>
       </summary>
-      <table class="table table-hover" style="max-width: 70%;">
+      <table class="table table-hover">
           <tbody>
           {{ range $k, $v := sort $.Site.Data.sessions "time" }}
               {{ if eq .day "Thu" }}
