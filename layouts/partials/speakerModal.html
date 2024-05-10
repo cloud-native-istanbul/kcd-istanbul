@@ -1,8 +1,11 @@
 <div class="modal fade" id="speaker-{{ .speaker.key }}" tabindex="-1" aria-hidden="true">
     <div class="modal-dialog modal-dialog-scrollable modal-xl">
         <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
             <div class="modal-body">
-                <div class="card mb-3">
+                <div class="card">
                     <div class="row g-0">
                         <div class="col-md-4">
                             <img src="/speakers/{{ .speaker.photo }}" class="img-fluid rounded-start">
@@ -21,7 +24,7 @@
                                 {{ if .speaker.linkedin }}
                                 <a href="https://www.linkedin.com/in/{{ .speaker.linkedin }}" target="_blank" class="card-link link-secondary"><i class="bi bi-linkedin"></i></a>
                                 {{ end }}
-                                <p class="card-text lead mt-2">{{ markdownify .speaker.bio }}</p>
+                                <p class="card-text mt-2">{{ markdownify .speaker.bio }}</p>
                                 <h5>Sessions</h5>
                                 {{ $session := index .siteData.sessions .speaker.session }}
                                 <ul style="list-style: none;">
