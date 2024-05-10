@@ -10,7 +10,11 @@
                         <div class="col-md-8">
                             <div class="card-body">
                                 <h3 class="card-title">{{ .speaker.name }}</h3>
+                                {{ if .speaker.company }}
                                 <h5>{{ .speaker.title }} @ {{ .speaker.company }}</h5>
+                                {{ else }}
+                                <h5>{{ .speaker.title }}</h5>
+                                {{ end }}
                                 {{ if .speaker.twitter }}
                                 <a href="https://twitter.com/{{ .speaker.twitter }}" target="_blank" class="card-link link-secondary"><i class="bi bi-twitter-x"></i></a>
                                 {{ end }}
