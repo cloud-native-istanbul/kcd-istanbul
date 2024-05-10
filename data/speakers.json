@@ -24,7 +24,7 @@
     "session": "keynote02"
   },
   "ayse_kaya": {
-    "index": 3,
+    "index": 6,
     "key": "ayse_kaya",
     "photo": "ayse-kaya.jpg",
     "name": "Ayse Kaya",
@@ -60,7 +60,7 @@
     "session": "viktor-mauricio"
   },
   "kunal_kushwaha": {
-    "index": 6,
+    "index": 24,
     "key": "kunal_kushwaha",
     "photo": "kunal-kushwaha.jpg",
     "name": "Kunal Kushwaha",
@@ -72,7 +72,7 @@
     "session": "kunal-aakansha"
   },
   "aakansha_priya": {
-    "index": 7,
+    "index": 12,
     "key": "aakansha_priya",
     "photo": "aakansha-priya.jpeg",
     "name": "Aakansha Priya",
@@ -84,7 +84,7 @@
     "session": "kunal-aakansha"
   },
   "engin_diri": {
-    "index": 8,
+    "index": 3,
     "key": "engin_diri",
     "photo": "engin-diri.jpg",
     "name": "Engin Diri",
@@ -132,7 +132,7 @@
     "session": "hasan"
   },
   "alessandro_vozza": {
-    "index": 12,
+    "index": 29,
     "key": "alessandro_vozza",
     "photo": "alessandro-vozza.png",
     "name": "Alessandro Vozza",
@@ -168,7 +168,7 @@
     "session": "edith"
   },
   "mohammed_fazalullah_qudrath": {
-    "index": 15,
+    "index": 8,
     "key": "mohammed_fazalullah_qudrath",
     "photo": "mohammed-fazalullah-qudrath.png",
     "name": "Mohammed Fazalullah Qudrath",
@@ -180,7 +180,7 @@
     "session": "mohammed-rewanth"
   },
   "rewanth_tammana": {
-    "index": 16,
+    "index": 30,
     "key": "rewanth_tammana",
     "photo": "rewanth-tammana.png",
     "name": "Rewanth Tammana",
@@ -276,7 +276,7 @@
     "session": "aliok"
   },
   "george_hantzaras": {
-    "index": 24,
+    "index": 7,
     "key": "george_hantzaras",
     "photo": "george-hantzaras.jpeg",
     "name": "George Hantzaras",
@@ -336,7 +336,7 @@
     "session": "henrik"
   },
   "tobias_schneck": {
-    "index": 29,
+    "index": 15,
     "key": "tobias_schneck",
     "photo": "tobias-schneck.png",
     "name": "Tobias Schneck",
@@ -348,7 +348,7 @@
     "session": "tobias"
   },
   "mustafa_akin": {
-    "index": 30,
+    "index": 16,
     "key": "mustafa_akin",
     "photo": "mustafa-akin.jpg",
     "name": "Mustafa Akın",
