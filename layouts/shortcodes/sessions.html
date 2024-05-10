@@ -4,27 +4,33 @@
         Event Schedule
     </p>
 
-    <p class="lead fs-2 mt-5">Day #1 - May 15, 2024 <span class="badge rounded-pill text-bg-primary">Wed</span></p>
-    <table class="table table-hover" style="max-width: 70%;">
-        <tbody>
-        {{ range $k, $v := sort $.Site.Data.sessions "time" }}
-            {{ if eq .day "Wed" }}
-                {{ partial "sessionRow.html" (dict "siteData" $.Site.Data "session" .) }}
-            {{ end }}
-        {{ end }}
-        </tbody>
-    </table>
+    <details open>
+      <summary class="lead fs-2 mt-5">Day #1 - May 15, 2024 <span class="badge rounded-pill text-bg-primary">Wed</span>
+      </summary>
+      <table class="table table-hover" style="max-width: 70%;">
+          <tbody>
+          {{ range $k, $v := sort $.Site.Data.sessions "time" }}
+              {{ if eq .day "Wed" }}
+                  {{ partial "sessionRow.html" (dict "siteData" $.Site.Data "session" .) }}
+              {{ end }}
+          {{ end }}
+          </tbody>
+      </table>
+    </details>
 
-    <p class="lead fs-2 mt-5">Day #2 - May 16, 2024 <span class="badge rounded-pill text-bg-primary">Thu</span></p>
-    <table class="table table-hover" style="max-width: 70%;">
-        <tbody>
-        {{ range $k, $v := sort $.Site.Data.sessions "time" }}
-            {{ if eq .day "Thu" }}
-                {{ partial "sessionRow.html" (dict "siteData" $.Site.Data "session" .) }}
-            {{ end }}
-        {{ end }}
-        </tbody>
-    </table>
+    <details open>
+      <summary class="lead fs-2 mt-5">Day #2 - May 16, 2024 <span class="badge rounded-pill text-bg-primary">Thu</span>
+      </summary>
+      <table class="table table-hover" style="max-width: 70%;">
+          <tbody>
+          {{ range $k, $v := sort $.Site.Data.sessions "time" }}
+              {{ if eq .day "Thu" }}
+                  {{ partial "sessionRow.html" (dict "siteData" $.Site.Data "session" .) }}
+              {{ end }}
+          {{ end }}
+          </tbody>
+      </table>
+    </details>
 </div>
 
 {{ range $.Site.Data.speakers }}
