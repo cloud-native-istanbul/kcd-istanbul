@@ -237,8 +237,8 @@
 
   "sponsor01": {
     "key": "sponsor01",
-    "title": "Sponsored talk",
-    "description": "TBD",
+    "title": "Sponsored talk - Anteon",
+    "description": "Sponsored talk - Anteon",
     "speakers": [],
     "day": "Wed",
     "time": "11:15",
@@ -246,8 +246,8 @@
   },
   "sponsor02": {
     "key": "sponsor02",
-    "title": "Sponsored talk",
-    "description": "TBD",
+    "title": "Sponsored talk - İşNet",
+    "description": "Sponsored talk - İşNet",
     "speakers": [],
     "day": "Wed",
     "time": "12:30",
@@ -255,8 +255,8 @@
   },
   "sponsor03": {
     "key": "sponsor03",
-    "title": "Sponsored talk",
-    "description": "TBD",
+    "title": "Sponsored talk - Sufle",
+    "description": "Sponsored talk - Sufle",
     "speakers": [],
     "day": "Wed",
     "time": "16:15",
@@ -265,26 +265,35 @@
 
   "sponsor04": {
     "key": "sponsor04",
-    "title": "Sponsored talk",
-    "description": "TBD",
+    "title": "Sponsored talk - Orange Business",
+    "description": "Sponsored talk - Orange Business",
     "speakers": [],
     "day": "Thu",
     "time": "11:15",
     "duration": "15min"
   },
-  "sponsor05": {
-    "key": "sponsor05",
-    "title": "Sponsored talk",
-    "description": "TBD",
+  "sponsor05-1": {
+    "key": "sponsor05-1",
+    "title": "Sponsored talk - Kubezy",
+    "description": "Sponsored talk - Kubezy",
     "speakers": [],
     "day": "Thu",
     "time": "12:30",
-    "duration": "25min"
+    "duration": "15min"
+  },
+  "sponsor05-2": {
+    "key": "sponsor05-2",
+    "title": "Sponsored talk - NGN",
+    "description": "Sponsored talk - NGN",
+    "speakers": [],
+    "day": "Thu",
+    "time": "12:45",
+    "duration": "15min"
   },
   "sponsor06": {
     "key": "sponsor06",
-    "title": "Sponsored talk",
-    "description": "TBD",
+    "title": "Sponsored talk - Amazon Web Services",
+    "description": "Sponsored talk - Amazon Web Services",
     "speakers": [],
     "day": "Thu",
     "time": "16:15",
