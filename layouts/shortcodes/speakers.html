@@ -1,4 +1,7 @@
 {{ range $k, $v := sort $.Site.Data.speakers "index" }}
+    {{ if .hiddenInSpeakersView }}
+        {{ continue }}
+    {{ end }}
     <div class="col">
         <div class="card text-bg-light border-light speaker">
             <img src="/speakers/{{ .photo }}" class="card-img-top">

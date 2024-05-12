@@ -358,5 +358,18 @@
     "linkedin": "mustafaakin",
     "bio": "Mustafa Akın, an engineering manager at JumpCloud with past roles at Atlassian and Opsgenie, has a diverse background in Linux and Kubernetes. He has been involved with Docker since 2013 and actively shares his knowledge on software development and Kubernetes on his blog. Mustafa also embarked on a PhD journey, focusing on Kubernetes scheduling algorithms, before deciding to leave academia.",
     "session": "mustafa"
+  },
+  "kenan_faruk_cakir": {
+    "index": 31,
+    "key": "kenan_faruk_cakir",
+    "photo": "kenan-faruk-cakir.jpg",
+    "name": "Kenan Faruk Çakır",
+    "title": "Founding Engineer",
+    "company": "Anteon",
+    "twitter": "",
+    "linkedin": "kenan-faruk-cakir",
+    "bio": "Kenan is a founding engineer at Anteon, an open-source Kubernetes monitoring solution. He has a strong experience in distributed systems and architecture.",
+    "session": "sponsor01",
+    "hiddenInSpeakersView": true
   }
 }
