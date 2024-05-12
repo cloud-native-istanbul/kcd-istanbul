@@ -238,8 +238,8 @@
   "sponsor01": {
     "key": "sponsor01",
     "title": "Sponsored talk - Anteon",
-    "description": "Sponsored talk - Anteon",
-    "speakers": [],
+    "description": "We'll show how eBPF can be used to build the Anteon observability platform for Kubernetes. We'll start by showing how it can monitor network and application performance directly within your Kubernetes clusters without code instrumentation. This allows you to see what's happening in your system without any modifications or additional overhead.\n\nNext, we'll walk through the process of setting up a Kubernetes monitoring platform using eBPF in under two minutes, demonstrating its effectiveness in real-time monitoring and troubleshooting of Kubernetes environments. This session aims to provide straightforward, practical advice that can be applied directly to improve how you view and find bottlenecks in your Kubernetes applications.",
+    "speakers": ["kenan_faruk_cakir"],
     "day": "Wed",
     "time": "11:15",
     "duration": "15min"
