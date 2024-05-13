@@ -52,6 +52,8 @@ To re-compress PNG images, we use `pngquant`. You can install it using `brew ins
 pngquant --force --ext .png static/speakers/*.png
 # Same story for team directory
 pngquant --force --ext .png static/team/*.png
+# Same story for sponsors directory
+pngquant --force --ext .png static/sponsors/*.png
 ```
 
 
