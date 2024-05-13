@@ -10,7 +10,7 @@
   },
   "hasan": {
     "key": "hasan",
-    "title": "Crossplane: Simplifying Cloud Management with Abstractions",
+    "title": "Crossplane: Simplifying Cloud Management with Control Planes",
     "description": "This presentation will explore the pivotal role of Crossplane in the evolving landscape of cloud resource management. As a Crossplane maintainer, I'll share insights into how Crossplane meets the complex needs of modern cloud infrastructure, offering a practical approach to managing cloud environments.\n\nThe talk will focus on the key principles of Crossplane, highlighting its ability to provide tailored APIs and abstraction layers that simplify cloud resource management. These features enable developers and platform teams to orchestrate and automate cloud resources more effectively, fostering innovation and efficiency.\n\nWe'll include a live demonstration showing how Crossplane can be applied in real-world scenarios. This session aims to provide a comprehensive understanding of Crossplane’s capabilities and how it is a versatile tool for cloud resource management.",
     "speakers": ["hasan_turken"],
     "day": "Wed",
