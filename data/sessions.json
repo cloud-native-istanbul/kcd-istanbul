@@ -62,15 +62,6 @@
     "time": "14:30",
     "duration": "25min"
   },
-  "george-dan": {
-    "key": "george-dan",
-    "title": "Building Internal Developer Platforms with Kubernetes Operators",
-    "description": "In this presentation, we will dive deep into the world of Kubernetes operators and how they can be leveraged to empower platform engineering teams and extend Kubernetes as the platform of platforms. We will start by introducing the concept of Kubernetes operators, their architecture, as well as how their development becomes easier leveraging the Operator Framework. We will then explore the advantages of using Kubernetes operators to manage complex applications and how they can streamline the deployment, scaling, and management of these applications. We will also provide real-world examples of operators that have been successfully deployed by platform engineering teams in the process of building an IDP. We will then demonstrate how an architecture of an IDP leveraging operators would look like and how this integrates with other CNCF tools, like Tekton, ArgoCD, Istio, and more as well as how infrastructure as code can be simplified with this approach.",
-    "speakers": ["george_hantzaras", "dan_mckean"],
-    "day": "Wed",
-    "time": "15:00",
-    "duration": "25min"
-  },
   "tobias": {
     "key": "tobias",
     "title": "Kubernetes & AI - Beauty and the Beast!?!",
@@ -185,7 +176,7 @@
     "key": "mohammed-rewanth",
     "title": "My pods are not responding! - A Kubernetes troubleshooting journey",
     "description": "Debugging production applications is comparable to a whodunnit story where you are the central character trying to figure out a crime from a crime scene. This becomes especially true with distributed services that are running in the cloud across multiple containers. Without proper tools for debugging and observability, it's impossible to see what's going on in a large-scale production deployment!\n\nJoin this demo-driven session to learn how to diagnose and troubleshoot production issues with out-of-the-box Kubernetes tools, in addition to other tools in the ecosystem.",
-    "speakers": ["mohammed_fazalullah_qudrath", "rewanth_tammana"],
+    "speakers": ["mohammed_fazalullah_qudrath"],
     "day": "Thu",
     "time": "16:30",
     "duration": "25min"
