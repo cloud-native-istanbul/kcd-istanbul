@@ -1,0 +1,13 @@
+{{/* Show first 6 */}}
+{{ range seq 6 }}
+    {{ $index := add 1 . }}
+    {{ $indexPadded := (printf "%0*.*f" 3 0 (float .)) }}
+    {{ $fileName := (printf "%s.%s" $indexPadded "jpg") }}
+    {{ $imagePath := (print "/photos/experience/" $fileName )}}
+    {{ $image := resources.Get $imagePath }}
+    {{ $thumb := $image.Process "resize 1024x" }}
+    <div class="col-6 gx-2 gy-2" style="overflow: hidden;">
+        <img src="{{ $thumb.RelPermalink }}" class="img-fluid experience" style="overflow: hidden;">
+    </div>
+{{ end }}
+
