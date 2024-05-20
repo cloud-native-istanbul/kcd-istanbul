@@ -179,18 +179,6 @@
     "bio": "Mohammed Fazalullah \"Faz\" is a Senior Developer Advocate at AWS and educates and empowers developers on achieving cloud capabilities, allowing them to concentrate on interesting problems. An architect and a technical evangelist at heart, he speaks on various trends in the containers and observability space with the focus of building and scaling in the cloud in and around Asia and Europe.",
     "session": "mohammed-rewanth"
   },
-  "rewanth_tammana": {
-    "index": 16,
-    "key": "rewanth_tammana",
-    "photo": "rewanth-tammana.png",
-    "name": "Rewanth Tammana",
-    "title": "Independent Consultant",
-    "company": "",
-    "twitter": "rewanthtammana",
-    "linkedin": "rewanthtammana",
-    "bio": "Rewanth Tammana is a security ninja, open-source contributor, & an independent consultant. Previously, Senior Security Architect at National Bank of Dubai. He is passionate about DevSecOps, Cloud, and Container Security. He added 17,000+ lines of code to Nmap. Holds CKS, CKA & CKAD.\n\nRewanth speaks & delivers training at international conferences worldwide including Black Hat, Defcon, Hack In The Box, CRESTCon UK, PHDays, Nullcon, Bsides, CISO Platform, null chapters & multiple others.",
-    "session": "mohammed-rewanth"
-  },
   "furkan_turkal": {
     "index": 17,
     "key": "furkan_turkal",
@@ -274,30 +262,6 @@
     "linkedin": "aliok",
     "bio": "Ali Ok works for Red Hat as a principal software engineer. He is a Knative steering committee member and works with working groups within Knative.\n\nBesides the technical contributions to Knative and many CNCF projects, Ali is a CNCF Ambassador and a regular contributor to the CNCF TAG Contributor Strategy, where he helps projects with mentorship programs, governance improvements and contributor growth suggestions.",
     "session": "aliok"
-  },
-  "george_hantzaras": {
-    "index": 24,
-    "key": "george_hantzaras",
-    "photo": "george-hantzaras.jpeg",
-    "name": "George Hantzaras",
-    "title": "Kubernetes Engineering Director",
-    "company": "MongoDB",
-    "twitter": "iamhantzo",
-    "linkedin": "george-hantzaras",
-    "bio": "George is a distributed systems expert and a hands-on engineering leader with focus on delivering Enterprise cloud services at scale. He is a Director of Engineering at MongoDB, focusing on implementing cloud native technologies at enterprise scale. Most recently, he has been a speaker at global events like OpenSource Summit, Hashiconf, LeadDev, DeveloperWeek, and more, focusing on agile leadership, scaling engineering teams, and entrepreneurship.",
-    "session": "george-dan"
-  },
-  "dan_mckean": {
-    "index": 25,
-    "key": "dan_mckean",
-    "photo": "dan-mckean.jpeg",
-    "name": "Dan Mckean",
-    "title": "Kubernetes Product Manager",
-    "company": "MongoDB",
-    "twitter": "",
-    "linkedin": "dan-mckean",
-    "bio": "UK-based Product Manger at MongoDB, responsible for our Kubernetes support including our three Operators - Community Operator, Enterprise Operator, and Atlas Operator.",
-    "session": "george-dan"
   },
   "onur_beygo": {
     "index": 26,

@@ -1,4 +1,4 @@
-# KCD Istanbul 2024 Website
+# KCD Istanbul Website
 
 ## Development
 

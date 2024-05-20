@@ -48,3 +48,12 @@
         width: 100%;
     }
 }
+
+img.experience{
+    transition: transform 2s ease;
+}
+
+img.experience:hover{
+    /*zoom a little*/
+    transform: scale(1.2);
+}
